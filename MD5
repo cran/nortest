@@ -1,0 +1,13 @@
+8eae97b0cf18867622b9c9a86bd68083 *DESCRIPTION
+0d5958d496bbc7303f58597cef88157b *INDEX
+5e861efefc5d51e178e2b443d1eb1a88 *R/ad.test.R
+69f2b32bd7bd89217c2f3a0bc3bd4e05 *R/cvm.test.R
+c672b95caa6de73d839e15ec36fbde99 *R/lillie.test.R
+e5d00b63440bbc32ca8023d5cd5af041 *R/pearson.test.R
+e73ed91d74be1f1a7c080ff35bb43f82 *R/sf.test.R
+23161c7eb305fec411df18388de0d35c *README
+26416cc394fc48f38433a8bf428351fc *man/ad.test.Rd
+496f220fe3ca927f3ae3492538300c08 *man/cvm.test.Rd
+8d244137ebc988a366e611c07ecbf930 *man/lillie.test.Rd
+bd795493dd1f23257adfca82a9e6be82 *man/pearson.test.Rd
+df129517637ce2341d89cdaad91858b8 *man/sf.test.Rd
