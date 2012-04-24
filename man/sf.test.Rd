@@ -19,10 +19,10 @@ expected ordered quantiles from the standard normal
 distribution. The p-value is computed from the formula given by Royston (1993).
 }
 \value{
-  A list with class "htest" containing the following components: 
+  A list with class \dQuote{htest} containing the following components: 
   \item{statistic}{the value of the Shapiro-Francia  statistic.}
   \item{p.value }{the p-value for the test.}
-  \item{method}{the character string "Shapiro-Francia normality test".}
+  \item{method}{the character string \dQuote{Shapiro-Francia normality test}.}
   \item{data.name}{a character string giving the name(s) of the data.} 
 }
 \references{Royston, P. (1993): A pocket-calculator algorithm for the
@@ -40,7 +40,7 @@ from the standard normal distribution are approximated by
 \code{qnorm(ppoints(x, a = 1/2))} used for the normal quantile-quantile plot by 
 \code{\link{qqnorm}} for sample sizes greater than 10.}
 
-\seealso{\code{\link[ctest]{shapiro.test}} for performing the Shapiro-Wilk test for normality. 
+\seealso{\code{\link{shapiro.test}} for performing the Shapiro-Wilk test for normality. 
 \code{\link{ad.test}}, \code{\link{cvm.test}}, 
 \code{\link{lillie.test}}, \code{\link{pearson.test}} for performing further tests for normality.
 \code{\link{qqnorm}} for producing a normal quantile-quantile plot.}

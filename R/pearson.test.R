@@ -4,7 +4,7 @@ function (x, n.classes = ceiling(2 * (n^(2/5))), adjust = TRUE)
     DNAME <- deparse(substitute(x))
     x <- x[complete.cases(x)]
     n <- length(x)
-    if (adjust == TRUE) {
+    if (adjust) {
         dfd <- 2
     }
     else {

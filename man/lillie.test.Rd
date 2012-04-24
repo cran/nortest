@@ -33,10 +33,10 @@ the modified statistic \eqn{Z=D (\sqrt{n}-0.01+0.85/\sqrt{n})}, see Stephens (19
 the actual p-value formula being obtained by a simulation and approximation process.}
 
 \value{
-  A list with class "htest" containing the following components:
+  A list with class \dQuote{htest} containing the following components:
   \item{statistic}{the value of the Lilliefors (Kolomogorv-Smirnov) statistic.}
   \item{p.value }{the p-value for the test.}
-  \item{method}{the character string "Lilliefors (Kolmogorov-Smirnov) normality test".}
+  \item{method}{the character string \dQuote{Lilliefors (Kolmogorov-Smirnov) normality test}.}
   \item{data.name}{a character string giving the name(s) of the data.}
 }
 \references{
@@ -66,7 +66,7 @@ the Dallal-Wilkinson approximation yields a p-value greater than 0.1. (Actually,
 the alternative p-value approximation is provided for the complete range of test statistic values,
 but is only used when the Dallal-Wilkinson approximation fails.)}
 
-\seealso{\code{\link[ctest]{shapiro.test}} for performing the Shapiro-Wilk test for normality.
+\seealso{\code{\link{shapiro.test}} for performing the Shapiro-Wilk test for normality.
 \code{\link{ad.test}}, \code{\link{cvm.test}},
 \code{\link{pearson.test}}, \code{\link{sf.test}} for performing further tests for normality.
 \code{\link{qqnorm}} for producing a normal quantile-quantile plot.}

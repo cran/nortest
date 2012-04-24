@@ -1,6 +1,5 @@
 \name{ad.test}
 \alias{ad.test}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{Anderson-Darling test for normality}
 \description{
   Performs the Anderson-Darling test for  the composite hypothesis of normality, 
@@ -10,7 +9,6 @@
 \usage{
 ad.test(x)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{x}{a numeric vector of data values, the number of 
   which must be greater than 7. Missing values are allowed.}
@@ -31,10 +29,10 @@ Stephens (1986).
 
 }
 \value{
-  A list with class "htest" containing the following components: 
+  A list with class \dQuote{htest} containing the following components: 
   \item{statistic}{the value of the Anderson-Darling statistic.}
   \item{p.value }{the p-value for the test.}
-  \item{method}{the character string "Anderson-Darling normality test".}
+  \item{method}{the character string \dQuote{Anderson-Darling normality test}.}
   \item{data.name}{a character string giving the name(s) of the data.} 
 }
 \references{Stephens, M.A. (1986): Tests based on EDF statistics. In:
@@ -49,7 +47,7 @@ Thode Jr., H.C. (2002): Testing for  Normality. Marcel Dekker, New York.
 Cramer-von Mises test (as second choice) it gives more weight to the tails of the distribution.}
 
 
-\seealso{\code{\link[ctest]{shapiro.test}} for performing the Shapiro-Wilk test for normality. 
+\seealso{\code{\link{shapiro.test}} for performing the Shapiro-Wilk test for normality. 
 \code{\link{cvm.test}}, \code{\link{lillie.test}}, 
 \code{\link{pearson.test}}, \code{\link{sf.test}} for performing further tests for normality.
 \code{\link{qqnorm}} for producing a normal quantile-quantile plot.}

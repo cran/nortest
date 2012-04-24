@@ -26,10 +26,10 @@ lying somewhere between the two, see also Moore (1986).
 }
 
 \value{
-  A list with class "htest" containing the following components:
+  A list with class \dQuote{htest} containing the following components:
   \item{statistic}{the value of the Pearson chi-square statistic.}
   \item{p.value }{the p-value for the test.}
-  \item{method}{the character string "Pearson chi-square normality test".}
+  \item{method}{the character string \dQuote{Pearson chi-square normality test}.}
   \item{data.name}{a character string giving the name(s) of the data.}
   \item{n.classes}{the number of classes used for the test.}
   \item{df}{the degress of freedom of the chi-square distribution used to compute the p-value.}
@@ -60,7 +60,7 @@ the same result as the S-PLUS function call \code{chisq.gof((x-mean(x))/sqrt(var
 }
 
 
-\seealso{\code{\link[ctest]{shapiro.test}} for performing the Shapiro-Wilk test for normality.
+\seealso{\code{\link{shapiro.test}} for performing the Shapiro-Wilk test for normality.
 \code{\link{ad.test}}, \code{\link{cvm.test}},
 \code{\link{lillie.test}}, \code{\link{sf.test}} for performing further tests for normality.
 \code{\link{qqnorm}} for producing a normal quantile-quantile plot.}

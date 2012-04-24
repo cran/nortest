@@ -1,0 +1,1 @@
+export(ad.test, cvm.test, lillie.test, pearson.test, sf.test)
