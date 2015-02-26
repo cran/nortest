@@ -1,12 +1,13 @@
-c633796e9ca01341a7c4af9315bd2d1e *DESCRIPTION
+6c6815b72d686f15b242fc9c28b237f8 *ChangeLog
+4ccf08a5a77932bb4b31c69291c6ae79 *DESCRIPTION
 7e2c691dca2b870fbe66a0526f82c6fd *NAMESPACE
-5e861efefc5d51e178e2b443d1eb1a88 *R/ad.test.R
+0be837d22cc94617f9cead4e6a72fd42 *R/ad.test.R
 bec733d1c117ccd9593c37607e17bd03 *R/cvm.test.R
 c672b95caa6de73d839e15ec36fbde99 *R/lillie.test.R
 c2ee62eac181fca251d7a70503c96ae2 *R/pearson.test.R
 e73ed91d74be1f1a7c080ff35bb43f82 *R/sf.test.R
 b5267ad8746dbbbcaed0dfe0cdbd7dea *man/ad.test.Rd
-5df1c5f256815cfaaf965cd010a079a2 *man/cvm.test.Rd
+79c660cf60fb4bf9c0f0089898fe642f *man/cvm.test.Rd
 0b0c9455a2d4ef604a45ff8c45e5b7b1 *man/lillie.test.Rd
 c27e4b08dd8533138809de9dbd081630 *man/pearson.test.Rd
 ba77d1ac9f1527e92ddb57bf0b8737a6 *man/sf.test.Rd

@@ -16,8 +16,8 @@ cvm.test(x)
 \details{The Cramer-von Mises test is an EDF omnibus test for the composite hypothesis of normality. 
 The test statistic is 
 \deqn{
-W = \frac{1}{12 n} + \sum_{i=1}^{n} (p_{(i)} - \frac{2i-1}{2n}),
-}
+W = \frac{1}{12 n} + \sum_{i=1}^{n} \left(p_{(i)} - \frac{2i-1}{2n}\right)^2,
+}{W = 1/(12n)  +  \sum_{i=1}^n (p_(i) - (2i-1)/(2n))^2,}
 where \eqn{p_{(i)} = \Phi([x_{(i)} - \overline{x}]/s)}. Here, 
 \eqn{\Phi} is the cumulative distribution function 
 of the standard normal distribution, and \eqn{\overline{x}} and \eqn{s} 
